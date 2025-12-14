@@ -1,5 +1,5 @@
 import express from "express";
-import Blood from "../models/BloodModel.js";
+import Blood from "../models/bloodModel.js";
 import { authenticate, authorize } from "../middleware/auth.js";
 
 const router = express.Router();
